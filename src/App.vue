@@ -1,7 +1,7 @@
 <template>
   <section id="app" class="section">
-    <p class="has-text-centered subtitle">Thank you, you slot has been booked for {{slotData}}</p>
-    <p class="mBot has-text-centered">Please answer the below questions related to your booking.</p>
+    <p class="has-text-centered subtitle">Thanks, you slot has been booked for {{slotData}}</p>
+    <p class="mBot has-text-centered">Please fill the below questions related to your booking.</p>
     <Form />
   </section>
 </template>
@@ -16,7 +16,7 @@ export default {
   },
   data() {
     return {
-      slotData: "Test Slot Data"
+      slotData: "Test Slot"
     };
   },
   mounted() {
